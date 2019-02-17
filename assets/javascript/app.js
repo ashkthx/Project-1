@@ -172,9 +172,9 @@ function searchRecipes() {
     "https://api.edamam.com/search?q=" +
     itemSearch +
     "&app_id=" +
-    "907fcd7c" +
+    "19663c34" +
     "&app_key=" +
-    "c5117c4a65bdb06f4ea9592650475c7a";
+    "d5b225ff367759093464486ef7cd8246";
 
   $.ajax({
     url: queryURL,
@@ -325,7 +325,7 @@ function searchMovie() {
 
   var queryURL =
     "https://api.themoviedb.org/3/discover/movie?api_key=" +
-    "6bf1eb4a9936bec18bab9ad37b9bf3d5" +
+    "4a3bc8c2389c9ab93c8a710f27025417" +
     "&language=en-US&with_genres=" +
     genreSearch +
     "&include_adult=false&sort_by=vote_count.desc"
